@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["document.addEventListener(\"DOMContentLoaded\", function(){\r\n    const button = document.querySelector(\"#navBtn\");\r\n    // if(!button) return;\r\n    button.addEventListener(\"click\", function(){\r\n    const heading = document.querySelector(\"#heading\");\r\n    if(!heading) return;\r\n    heading.textContent = \"Built by file\";\r\n    });\r\n})\r\n"],
+  "mappings": ";;;AAAA,WAAS,iBAAiB,oBAAoB,WAAU;AACpD,UAAM,SAAS,SAAS,cAAc,SAAS;AAE/C,WAAO,iBAAiB,SAAS,WAAU;AAC3C,YAAM,UAAU,SAAS,cAAc,UAAU;AACjD,UAAG,CAAC;AAAS;AACb,cAAQ,cAAc;AAAA,IACtB,CAAC;AAAA,EACL,CAAC;",
+  "names": []
+}

@@ -1,0 +1,22 @@
+{
+  "name": "secondtry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve",
+    "build": "esbuild index.ts --bundle --outfile=dist/index.js --watch",
+    "build-by-file": "node builder.js",
+    "build-with-tsc": "tsc index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.19.11",
+    "serve": "^14.2.1"
+  },
+  "dependencies": {
+    "typescript": "^5.3.3"
+  }
+}
